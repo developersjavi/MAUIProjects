@@ -6,7 +6,7 @@
     Title="MainPage"
     BackgroundColor="White">
     <ScrollView>
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <VerticalStackLayout VerticalOptions="CenterAndExpand">
             <Image
                 HeightRequest="115"
                 Source="greenlogo.png"
