@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyNumberApp", "LuckyNumberApp\LuckyNumberApp.csproj", "{4EBD5897-C2FD-4EC8-B62B-77BCED54A284}"
 EndProject
@@ -14,6 +14,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_ContentPage", "02_ContentPage", "{C9CF8FF8-2827-4EFD-B3D3-464C0A50FBE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppContentPage", "MauiAppContentPage\MauiAppContentPage.csproj", "{7D0E6213-1B5B-489F-B1D4-138F8C3B96B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_NavigationPage", "03_NavigationPage", "{A6904163-675E-49E6-B221-69761C6ED62C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppNavigationPage", "MauiAppNavigationPage\MauiAppNavigationPage.csproj", "{BBCC636B-4FE2-4D9F-A879-37A2FA88D34D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_FlyoutPage", "04_FlyoutPage", "{4FEAF582-7B65-40E6-8092-FF7F20EB79BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppFlyoutPage", "MauiAppFlyoutPage\MauiAppFlyoutPage.csproj", "{D7182CA8-C600-4E8E-8817-B645546631C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +37,30 @@ Global
 		{4EBD5897-C2FD-4EC8-B62B-77BCED54A284}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{4EBD5897-C2FD-4EC8-B62B-77BCED54A284}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EBD5897-C2FD-4EC8-B62B-77BCED54A284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0E6213-1B5B-489F-B1D4-138F8C3B96B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0E6213-1B5B-489F-B1D4-138F8C3B96B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0E6213-1B5B-489F-B1D4-138F8C3B96B1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7D0E6213-1B5B-489F-B1D4-138F8C3B96B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0E6213-1B5B-489F-B1D4-138F8C3B96B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCC636B-4FE2-4D9F-A879-37A2FA88D34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCC636B-4FE2-4D9F-A879-37A2FA88D34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCC636B-4FE2-4D9F-A879-37A2FA88D34D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BBCC636B-4FE2-4D9F-A879-37A2FA88D34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCC636B-4FE2-4D9F-A879-37A2FA88D34D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7182CA8-C600-4E8E-8817-B645546631C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7182CA8-C600-4E8E-8817-B645546631C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7182CA8-C600-4E8E-8817-B645546631C8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D7182CA8-C600-4E8E-8817-B645546631C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7182CA8-C600-4E8E-8817-B645546631C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4EBD5897-C2FD-4EC8-B62B-77BCED54A284} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7D0E6213-1B5B-489F-B1D4-138F8C3B96B1} = {C9CF8FF8-2827-4EFD-B3D3-464C0A50FBE9}
+		{BBCC636B-4FE2-4D9F-A879-37A2FA88D34D} = {A6904163-675E-49E6-B221-69761C6ED62C}
+		{D7182CA8-C600-4E8E-8817-B645546631C8} = {4FEAF582-7B65-40E6-8092-FF7F20EB79BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6084C2D4-7AC8-40F1-A873-9FC89C246961}
