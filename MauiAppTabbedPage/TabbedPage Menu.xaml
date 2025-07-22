@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage
+    x:Class="MauiAppTabbedPage.TabbedPage_Menu"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+    xmlns:pages="clr-namespace:MauiAppTabbedPage"
+    Title="TabbedPage_Menu"
+    android:TabbedPage.ToolbarPlacement="Bottom"
+    BarBackground="AliceBlue"
+    SelectedTabColor="Black"
+    UnselectedTabColor="BlueViolet">
+
+    <pages:Page1 />
+    <pages:Page2 />
+    <pages:Page3 />
+
+</TabbedPage>
