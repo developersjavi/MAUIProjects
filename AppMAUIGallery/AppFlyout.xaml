@@ -6,7 +6,7 @@
     xmlns:pages="clr-namespace:AppMAUIGallery.Views"
     Title="AppFlyout"
     FlyoutLayoutBehavior="Popover">
-
+    <!--  menu  -->
     <FlyoutPage.Flyout>
         <pages:Menu />
     </FlyoutPage.Flyout>
