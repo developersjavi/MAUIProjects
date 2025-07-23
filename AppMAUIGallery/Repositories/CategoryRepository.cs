@@ -1,5 +1,6 @@
 ﻿using AppMAUIGallery.Models;
 using AppMAUIGallery.Views.Layouts;
+using Microsoft.Maui;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,12 @@ namespace AppMAUIGallery.Repositories
                         Description = "Organização sequencial dos elementos.",
                         //Page = new StackLayoutPage()
                         Page = typeof(StackLayoutPage)
+                    },
+                    new Component
+                    {
+                        Title = "Grid",
+                        Description = "Organiza os elementos dentro de uma tabela",
+                        Page = typeof(GridLayoutPage)
                     }
                 }
             });
